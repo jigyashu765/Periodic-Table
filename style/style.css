@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: black;
+}
+
+.periodicArea{
+    width: 93.7%;
+    height: auto;
+    margin: 0.2em auto;
+    overflow: hidden;
+}
+
+/* Box-Color */
+
+.box{
+    min-height: 80px;
+    min-width: 80px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box:hover{
+    box-shadow: none;
+    font-size: 40.3px;
+}
+
+.Number{
+    font-size: 22px;
+}
+
+.Number:hover{
+    box-shadow: none;
+    font-size: 22px;
+}
+
+.Trasition-metal{
+    background: radial-gradient(circle, #fff, #ff5722)
+}
+
+.Alkali-metal{
+    background: radial-gradient(circle, #fff, #25f52c)
+}
+
+.Alkali-Earth-metal{
+    background: radial-gradient(circle, #fff, #f7255d)
+}
+
+.Metal{
+    background: radial-gradient(circle, #fff, #ff9800)
+}
+
+.Non-metal{
+    background: radial-gradient(circle, #fff, #9c27b0)
+}
+
+.Noble-gas{
+    background: radial-gradient(circle, #fff, #ff0000)
+}
+
+.Metalloids{
+    background: radial-gradient(circle, #fff, #57ad5a)
+}
+
+.Halogens{
+    background: radial-gradient(circle, #fff, #00ff08)
+}
+
+.Transactinides{
+    background: radial-gradient(circle, #fff, #03a9f4)
+}
+
+.Lanthanides{
+    background: radial-gradient(circle, #fff, #ffeb3b)
+}
+.Actinides{
+    background: radial-gradient(circle, #fff, #3f51b5)
+}
+
+/* Box-Color */
+
+/* Text-Color */
+
+.Text-White{
+    color: white;
+}
+
+.Text-Red{
+    color: red;
+}
+
+.Text-Blue{
+    color: blue;
+}
+
+.Text-Orange{
+    color: orangered;
+}
+
+/* Text-Color */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-inside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    margin-top: 30px;
+}
+
+.fifth-Container{
+    justify-content: right;
+}
+
+.screen{
+    position: absolute;
+    top: 0.8em;
+    left: 220px;
+    height: 220px;
+    width: 777px;
+    /* border: 1px solid red; */
+    color: white;
+}
+
+.info{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+
+.infoSide{
+    margin: 10px;
+    display: flex;
+}
+
+.infoSide p{
+    margin: 12px;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+
+.infoSideOne{
+    min-width: 50%;
+}
+
+/* Animation Code */
+
+@keyframes IamHere {
+    0%, 7% {
+        transform: rotateZ(0);
+      }
+      15% {
+        transform: rotateZ(-15deg);
+      }
+      20% {
+        transform: rotateZ(10deg);
+      }
+      25% {
+        transform: rotateZ(-10deg);
+      }
+      30% {
+        transform: rotateZ(6deg);
+      }
+      35% {
+        transform: rotateZ(-4deg);
+      }
+      40%, 100% {
+        transform: rotateZ(0);
+      }
+}
+
+/* Animation Code */
