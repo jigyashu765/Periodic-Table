@@ -4,7 +4,6 @@ const elementTwo = ["Francium", "Radium", "Actinium", "Thorium", "Protactinium",
 
 $(document).ready(function() {
   $('#screen').hide();
-
   $(".box").dblclick(function() {
   var boxId = $(this).attr("id");
   $('#screen').show();
@@ -1094,30 +1093,4 @@ $(document).ready(function() {
       break;
   }
   });
-
-  // if ((".box").click) {
-  //       var boxId = $(".box").attr("id");
-  //       console.log(boxId);
-  // }
-    // $(".box").click(function() {
-    //     var boxId = $(".box").attr("id");
-    //     console.log(boxId);
-    // });
-
-    // $(".box").each(function() {
-    //     var boxId = $(this).attr("id");
-    //     // Perform operations with the boxId
-    //     console.log(boxId);
-    // });
-
-    // $(".box").each(function() {
-    //     var boxId = $(this).attr("id");
-    //     // Perform operations specific to each element
-    //     console.log("ID of the current element: " + boxId);
-    //   });
-      
-      
-      
-    // console.log("ready")
-    // $(".box").text("New text");
 });  
